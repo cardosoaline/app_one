@@ -5,6 +5,7 @@
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": false, //Adicionado para não ter que ficar inicializando variavel
     "strict": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
